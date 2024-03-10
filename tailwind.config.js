@@ -1,8 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
+  ],
+
   theme: {
     extend: {
+      fontFamily: {
+        body: ["Alegreya+Sans"],
+      },
       screens: {
         mobile: { max: "639px" }, // => @media (max-width: 639px) { ... }
         tablet: { max: "1023px" }, // => @media (max-width: 1023px) { ... }
