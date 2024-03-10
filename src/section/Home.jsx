@@ -1,7 +1,6 @@
 import { useSpring, animated } from "@react-spring/web";
-import { ReactSVG } from "react-svg";
-import Arrow from "../assets/arrow.svg";
 import HomeLeftSide from "../components/Home Components/HomeLeftSide";
+import HomeCenterSide from "../components/Home Components/HomeCenterSide";
 
 export default function Home() {
   const fadeIn = useSpring({
@@ -16,10 +15,12 @@ export default function Home() {
   });
   return (
     <>
-      <div className="flex flex-row gap-2 text-primaryTextColor font-extrabold justify-between w-full h-screen">
+      <div className="flex flex-row gap-2 text-primaryTextColor font-extrabold justify-between w-full h-screen ">
         <HomeLeftSide />
-        <div className="center ">Center</div>
-        <div className="right">Right</div>
+        <HomeCenterSide />
+        <div className="right bg-blue-200  flex flex-col justify-center items-center">
+          Right
+        </div>
       </div>
     </>
   );

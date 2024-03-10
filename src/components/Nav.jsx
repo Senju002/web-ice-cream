@@ -15,7 +15,7 @@ export default function Nav() {
     <>
       <div className=" text-primaryTextColor font-extrabold flex flex-row  h-24 justify-between px-8 items-center w-full text-xl">
         <img src={Logo} alt="logo" className="h-10 " />
-        <div className="flex gap-10 mobile:hidden">
+        <div className="flex gap-10 tablet:hidden">
           {links.map((link, index) => (
             <a
               className="transition duration-300  hover:text-quaternary hover:shadow-md"
