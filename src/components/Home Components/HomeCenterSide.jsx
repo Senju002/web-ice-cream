@@ -14,7 +14,7 @@ export default function HomeCenterSide() {
   });
   return (
     <animated.div
-      className="center flex flex-col justify-center items-center"
+      className="center flex flex-col justify-center ml-[12rem] items-center"
       style={fadeIn}
     >
       <div className="bg-gradient-to-b z-50 from-primary to-secondary h-[51rem] w-[37rem] mr-80 w-90% rounded-t-[18.75rem] rounded-b-[3.125rem]">
