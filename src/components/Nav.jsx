@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Children } from "react";
 import Logo from "../images/logo.png";
 import Burger from "../assets/burger.svg";
 import { ReactSVG } from "react-svg";
@@ -13,8 +13,8 @@ const links = [
 export default function Nav() {
   return (
     <>
-      <div className=" text-primaryTextColor font-extrabold flex flex-row  h-14 justify-between px-8 items-center w-full text-xs">
-        <img src={Logo} alt="logo" className="h-5 " />
+      <div className=" text-primaryTextColor font-extrabold flex flex-row  h-24 justify-between px-8 items-center w-full text-xl">
+        <img src={Logo} alt="logo" className="h-10 " />
         <div className="flex gap-10 mobile:hidden">
           {links.map((link, index) => (
             <a
