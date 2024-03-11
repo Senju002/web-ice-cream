@@ -16,7 +16,7 @@ export default function DiscountCard({ image, label, duration }) {
         <img
           src={image}
           alt="Ice Cream"
-          className="absolute mb-20 ml-24 rotate-[90deg] h-20"
+          className="absolute tablet:mb-20 tablet:ml-24 rotate-[90deg] tablet:h-20 h-48 ml-48 mb-64 "
         />
         <p className="rotate-[90deg] text-center text-2xl w-[12rem] mt-8 tablet:text-sm ">
           50% Off <br /> {label}
