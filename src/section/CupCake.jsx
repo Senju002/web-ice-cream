@@ -34,7 +34,7 @@ export default function CupCake() {
     <>
       <animated.div
         style={entranceAnimation}
-        className="flex flex-row gap-2 text-primaryTextColor font-extrabold justify-between w-full h-screen flex-wrap n px-9 relative mt-24"
+        className="flex flex-row gap-2 text-primaryTextColor font-extrabold justify-between w-full h-screen flex-wrap n px-9 relative mt-0"
       >
         <CupCakeImg />
         <CupCakeDescription />
