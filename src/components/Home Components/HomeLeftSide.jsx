@@ -13,10 +13,10 @@ export default function HomeLeftSide() {
   return (
     <animated.div
       style={fadeIn}
-      className="left pl-8 flex flex-col  justify-center "
+      className="left pl-8 tablet:pl-0 flex flex-col  justify-center  tablet:w-full  tablet:h-96 "
     >
       <HomeTitle />
-      <div className="flex flex-row">
+      <div className="flex flex-row tablet:justify-center items-center">
         <PrimaryButton />
         <PlayButton />
       </div>

@@ -17,7 +17,7 @@ export default function Home() {
   });
   return (
     <>
-      <div className="flex flex-row gap-2 text-primaryTextColor font-extrabold justify-between w-full h-screen">
+      <div className="flex flex-row gap-2 text-primaryTextColor font-extrabold justify-between w-full h-screen flex-wrap">
         <HomeLeftSide />
         <HomeCenterSide />
         <HomeRightSide />
