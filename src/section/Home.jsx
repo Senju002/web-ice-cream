@@ -15,7 +15,7 @@ export default function Home() {
   });
   return (
     <>
-      <div className="flex flex-row gap-2 text-primaryTextColor font-extrabold justify-between w-full h-screen flex-wrap tablet:overflow-hidden">
+      <div className="flex flex-row gap-2 text-primaryTextColor font-extrabold justify-between w-full h-screen flex-wrap tablet:overflow-hidden relative">
         <animated.div style={springProps}>
           {/* <ReactSVG
             src={FirstConfetti}
