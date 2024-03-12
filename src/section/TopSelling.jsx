@@ -38,10 +38,10 @@ export default function TopSelling() {
       <animated.div
         id="topSelling"
         style={springProps}
-        className="flex flex-row gap-2 text-primaryTextColor font-extrabold justify-between w-full h-screen flex-wrap n px-9 relative mt-[-4rem] overflow-hidden"
+        className="flex flex-row gap-2 text-primaryTextColor font-extrabold justify-between w-full h-screen flex-wrap n px-9 relative mt-[-4rem] overflow-hidden tablet:overflow-visible"
       >
         <TopSellingDescription />
-        <div className=" w-[64rem] flex items-center justify-around  flex-row px-10  ">
+        <div className=" w-[64rem] flex items-center justify-around  flex-row px-10 tablet:justify-center flex-wrap tablet:gap-16">
           <Card
             title={"Soft banana, Cholate Flyover"}
             image={BananaOne}
