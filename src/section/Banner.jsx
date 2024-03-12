@@ -34,7 +34,7 @@ export default function Banner() {
       <animated.div
         id="banner"
         style={{ ...springProps, backgroundImage: `url(${Background})` }}
-        className=" relative bg-contain bg-center bg-no-repeat overflow-hidden max-w-full  w-screen h-screen flex items-center mx-auto mobile:mt-[10rem]"
+        className=" relative bg-contain bg-center bg-no-repeat overflow-hidden max-w-full  w-screen h-screen flex items-center mx-auto mobile:mt-[30rem]"
       >
         <div className=" px-9 flex flex-col gap-2 text-primaryTextColor font-extrabold justify-between w-[90%]">
           <h1 className="text-[3.75rem] font-bold tablet:text-left text-left w-full  leading-[5rem] tablet:text-[1rem] tablet:leading-[1.5rem]">
